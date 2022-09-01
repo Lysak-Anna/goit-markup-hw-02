@@ -5,87 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
+<body class="page">
     <header>
-        <nav>
+        <nav class="site-nav">
             <a href="./index.html">WebStudio</a>
 
-            <ul>
-                <li><a href="./index.html">Студія</a></li>
-                <li><a href="./portfolio.html">Портфоліо</a></li>
-                <li><a href="">Контакти</a></li>
+            <ul class="list">
+                <li><a href="./index.html" class="link">Студія</a></li>
+                <li><a href="./portfolio.html" class="link current">Портфоліо</a></li>
+                <li><a href="" class="link">Контакти</a></li>
             </ul>
         </nav>
+        <ul class="contacts list">
 
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
-      
+        <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+        <li><a href="tel:+38 096 111 11 11" class="link">+38 096 111 11 11</a></li>
+        </ul>
     </header>
     <main>
         <section>
-            <ul>
+            <ul class="list">
                 <li>
-                    <button type="button">Усі</button>
+                    <button type="button" class="button-primery link">Усі</button>
                 </li>
                 <li>
-                    <button type="button">Веб-сайти</button>
+                    <button type="button" class="button-secondary link">Веб-сайти</button>
                 </li>
                 <li>
-                    <button type="button">Додатки</button>
+                    <button type="button" class="button-secondary link">Додатки</button>
                 </li>
                 <li>
-                    <button type="button">Дизайн</button>
+                    <button type="button" class="button-secondary link">Дизайн</button>
                 </li>
                 <li>
-                    <button type="button">Маркетинг</button>
+                    <button type="button" class="button-secondary link">Маркетинг</button>
                 </li>
             </ul>
-            <ul>
+            <ul class="list">
                 <li>
                     <img src="./images/portfolio1.jpg" alt="Ноутбук" width="370" height="294">
                     <h2>Технокряк</h2>
-                    <p>Веб-сайт</p>
+                    <p class="paragraph">Веб-сайт</p>
                 </li>
                 <li>
                     <img src="./images/portfolio2.jpg" alt="Два баскетболіста" width="370" height="294">
                     <h2>Постер New Orlean vs Golden Star</h2>
-                    <p>Дизайн</p>
+                    <p class="paragraph">Дизайн</p>
                 </li>
                 <li>
                     <img src="./images/portfolio3.jpg" alt="Лого ресторану" width="370" height="294">
                     <h2>Ресторан Seafood</h2>
-                    <p>Додаток</p>                
+                    <p class="paragraph">Додаток</p>                
                 </li>
                 <li>
                     <img src="./images/portfolio4.jpg" alt="Навушники" width="370" height="294">
                     <h2>Проєкт Prime</h2>
-                    <p>Маркетинг</p>
+                    <p class="paragraph">Маркетинг</p>
                 </li>
                 <li>
                     <img src="./images/portfolio5.jpg" alt="Дві коробки" width="370" height="294">
                     <h2>Проєкт Boxes</h2>
-                    <p>Додаток</p>
+                    <p class="paragraph">Додаток</p>
                 </li>
                 <li>
                     <img src="./images/portfolio6.jpg" alt="Монітор" width="370" height="294">
                     <h2>Inspiration has no Borders</h2>
-                    <p>Веб-сайт</p>
+                    <p class="paragraph">Веб-сайт</p>
                 </li>
                 <li>
                     <img src="./images/portfolio7.jpg" alt="Сторінки журналу" width="370" height="294">
                     <h2>Видання Limited Edition</h2>
-                    <p>Дизайн</p>
+                    <p class="paragraph">Дизайн</p>
                 </li>
                 <li>
                     <img src="./images/portfolio8.jpg" alt="Етикетка" width="370" height="294">
                     <h2>Проєкт LAB</h2>
-                    <p>Маркетинг</p>
+                    <p class="paragraph">Маркетинг</p>
                 </li>
                 <li>
                     <img src="./images/portfolio9.jpg" alt="Ноутбук" width="370" height="294">
                     <h2>Growing Business</h2>
-                    <p>Додаток</p>
+                    <p class="paragraph">Додаток</p>
                 </li>
 
             </ul>
@@ -93,19 +95,19 @@
         </section>
 
     </main>
-    <footer>
+    <footer class="footer">
         <a href="./index.html">WebStudio</a>
         <adress>
 
-        <ul>
+        <ul class="list">
             <li>
-                <a href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB%D1%8C%D0%B2%D0%B0%D1%80+%D0%9B%D0%B5%D1%81%D1%96+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D1%97%D0%B2,+02000/@50.4265807,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858" target="_blank" title="noopener noreferrer">м. Київ, пр-т Лесі Українки, 26
+                <a href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB%D1%8C%D0%B2%D0%B0%D1%80+%D0%9B%D0%B5%D1%81%D1%96+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D1%97%D0%B2,+02000/@50.4265807,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858" target="_blank" title="noopener noreferrer" class="link">м. Київ, пр-т Лесі Українки, 26
             </li>
             <li>
-                <a href="mailto:info@example.com">info@example.com</a>
+                <a href="mailto:info@example.com" class="link">info@example.com</a>
             </li>
             <li>
-                <a href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
+                <a href="tel:+38 096 111 11 11" class="link">+38 096 111 11 11</a>
             </li>
          </ul>
         </adress>

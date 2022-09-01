@@ -1,13 +1,65 @@
+:root {
+    --primary-text-color: #212121;
+    --primary-white-color: #FFFFFF;
+    --second-text-color: #757575;
+    --accent-color: #2196F3;
+    --accent-background-color: #2F303A;
+
+}
+
+
+/* body */
 .page {
-    background-color: #FFFFFF;
-    color: #212121;
+    color: var(--primary-text-color);
 }
 
-.logo {
-
+/* header */
+.site-nav .link {
+    color: var(--primary-text-color);
 }
+
+.contacts .link {
+    color: var(--second-text-color)
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* hero */
+.hero-title {
+    color: var(--primary-white-color);
+    background-color: var(--accent-background-color);
+}
+
+.button-primery {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+.button-secondary {
+    background-color: #F5F4FA;
+}
+/* section */
+.paragraph {
+    color: var(--second-text-color);
+}
+
 
 .list {
     list-style: none;
 }
+
+/* footer */
+.footer .link {
+    color: var(--primary-white-color);
+    background-color: var(--accent-background-color);
+}
+
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+}
+
+
+
 
