@@ -4,6 +4,7 @@
     --second-text-color: #757575;
     --accent-color: #2196F3;
     --accent-background-color: #2F303A;
+    --rarely-black: #000000;
 
 }
 
@@ -11,37 +12,94 @@
 /* body */
 .page {
     color: var(--primary-text-color);
+    
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
 
 /* header */
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    
+}
+.logo-accent {
+    color:var(--accent-color);
+}
+.logo-black {
+    color: var(--rarely-black);
+}
 .site-nav .link {
     color: var(--primary-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .contacts .link {
-    color: var(--second-text-color)
+    color: var(--second-text-color);
+        
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link.current {
     color: var(--accent-color);
 }
 
+
 /* hero */
 .hero-title {
     color: var(--primary-white-color);
     background-color: var(--accent-background-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .button-primery {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    align-items: center;
+    letter-spacing: 0.06em;
 }
-.button-secondary {
-    background-color: #F5F4FA;
-}
+  
+
 /* section */
-.paragraph {
-    color: var(--second-text-color);
+.title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.text {
+        color: var(--second-text-color);
+
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+.main-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+       
 }
 
 
@@ -59,6 +117,19 @@
 .link:focus {
     color: var(--accent-color);
 }
+/* portfolio */
+.button-secondary {
+    color: var(--primary-text-color);
+    background-color: #F5F4FA;
+}
+
+.button-secondary:hover,
+.button-secondary:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+
 
 
 
