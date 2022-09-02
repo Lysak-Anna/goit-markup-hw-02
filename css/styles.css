@@ -12,9 +12,11 @@
 /* body */
 .page {
     color: var(--primary-text-color);
+    background-color: var(--primary-white-color);
     
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
+   
 }
 
 /* header */
@@ -24,9 +26,11 @@
     font-size: 26px;
     line-height: 1.2;
     
+    text-decoration: none;
 }
 .logo-accent {
     color:var(--accent-color);
+    
 }
 .logo-black {
     color: var(--rarely-black);
@@ -53,12 +57,18 @@
     color: var(--accent-color);
 }
 
+.link {
+    text-decoration: none;
+}
+
 
 /* hero */
+.hero {
+    background-color: var(--accent-background-color);
+}
 .hero-title {
     color: var(--primary-white-color);
-    background-color: var(--accent-background-color);
-
+   
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -102,16 +112,38 @@
        
 }
 
+.team {
+    background-color: #F5F4FA;
+}
+.subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2px;
+       
+}
+.desc {
+    color: var(--second-text-color);
+    font-size: 16px;
+    line-height: 1.2;
+}
+
 
 .list {
     list-style: none;
 }
 
 /* footer */
-.footer .link {
-    color: var(--primary-white-color);
+.footer {
     background-color: var(--accent-background-color);
 }
+.footer .link {
+    color: var(--primary-white-color);
+
+    font-size: 14px;
+    line-height: 1.7;
+       
+}
+
 
 .link:hover,
 .link:focus {
@@ -121,6 +153,28 @@
 .button-secondary {
     color: var(--primary-text-color);
     background-color: #F5F4FA;
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+        
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+    color: var(--second-text-color);
+
+    font-size: 16px;
+    line-height: 1.9;
+        
 }
 
 .button-secondary:hover,
