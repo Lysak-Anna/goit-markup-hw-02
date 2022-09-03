@@ -3,7 +3,8 @@
     --primary-white-color: #FFFFFF;
     --second-text-color: #757575;
     --accent-color: #2196F3;
-    --accent-background-color: #2F303A;
+    --dark-background-color: #2F303A;
+    --light-background-color: #F5F4FA;
     --rarely-black: #000000;
 
 }
@@ -35,7 +36,8 @@
 .logo-black {
     color: var(--rarely-black);
 }
-.site-nav .link {
+.site-nav .link,
+.contacts .link {
     color: var(--primary-text-color);
 
     font-weight: 500;
@@ -46,11 +48,7 @@
 
 .contacts .link {
     color: var(--second-text-color);
-        
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+   
 }
 
 .site-nav .link.current {
@@ -64,7 +62,7 @@
 
 /* hero */
 .hero {
-    background-color: var(--accent-background-color);
+    background-color: var(--dark-background-color);
 }
 .hero-title {
     color: var(--primary-white-color);
@@ -87,6 +85,8 @@
     line-height: 1.9;
     align-items: center;
     letter-spacing: 0.06em;
+
+    cursor: pointer;
 }
   
 
@@ -113,7 +113,7 @@
 }
 
 .team {
-    background-color: #F5F4FA;
+    background-color: var(--light-background-color);
 }
 .subtitle {
     font-weight: 500;
@@ -125,6 +125,7 @@
     color: var(--second-text-color);
     font-size: 16px;
     line-height: 1.2;
+    
 }
 
 
@@ -134,7 +135,7 @@
 
 /* footer */
 .footer {
-    background-color: var(--accent-background-color);
+    background-color: var(--dark-background-color);
 }
 .footer .link {
     color: var(--primary-white-color);
@@ -159,6 +160,8 @@
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
+
+    cursor: pointer;
         
 }
 
